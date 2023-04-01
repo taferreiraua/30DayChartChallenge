@@ -7,7 +7,7 @@ pacman::p_load(tidyverse,
 
 
 # dados
-df = read.csv("C:/Users/Thays Ferreira/Downloads/tarantino.csv")
+df = read.csv("https://raw.githubusercontent.com/taferreiraua/30DayChartChallenge/main/Day1/tarantino.csv")
 
 
 
@@ -45,7 +45,7 @@ tarantino = df |>
   mutate(perc = round(count*100/sum(count), 1),
          lab.pos = cumsum(perc)-.5*perc,
          filename = paste0(str_remove(str_remove(movie, ' '), ': Vol. '), ".jpg"),
-         links = paste0("C:/Users/Thays Ferreira/Documents/Visualização de dados/30DaysChartChallenge/Day1/Images/", filename),
+         links = paste0("https://raw.githubusercontent.com/taferreiraua/30DayChartChallenge/main/Day1/", filename),
          movie = case_when(!grepl('Kill Bill', movie) ~ str_replace(movie, ' ', '<br>'),
                            TRUE ~ str_replace(movie, ':', '<br>')),
          movie_label = paste0("<span style='font-family:benguiat;font-size:25pt;color:#000100;'>", movie, "<br></span>",
