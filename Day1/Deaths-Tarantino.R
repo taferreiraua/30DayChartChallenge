@@ -76,7 +76,6 @@ ggplot(data = tarantino,
   theme(plot.background = element_rect(fill='#FEB81C', color='#FEB81C'),
         plot.caption = element_markdown(),
         legend.position = 'none',
-        legend.text = element_text(color='#000100', size=35),
         panel.grid = element_blank(),
         axis.title = element_blank(),
         axis.text = element_blank()) +
