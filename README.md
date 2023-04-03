@@ -6,3 +6,6 @@ Contribuições para o #30daychartchallenge.
 
 ### **Day 2 - Waffle: [Positividade no twitter africano](Day2/AfriSenti.R)**
   ![Screenshot](Day2/AfriSenti.png)
+
+### **Day 3 - Fauna/Flora: [Numbats sightings recorded since 2016](https://github.com/taferreiraua/TidyTuesday/blob/main/2023/W10/07-03-2023-numbats.R)**
+  ![Screenshot](https://github.com/taferreiraua/TidyTuesday/blob/main/2023/W10/07-03-2023-numbats.png)
