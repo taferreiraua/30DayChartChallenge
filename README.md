@@ -9,3 +9,6 @@ Contribuições para o #30daychartchallenge.
 
 ### **Day 3 - Fauna/Flora: [Numbats sightings recorded since 2016](https://github.com/taferreiraua/TidyTuesday/blob/main/2023/W10/07-03-2023-numbats.R)**
   ![Screenshot](https://github.com/taferreiraua/TidyTuesday/blob/main/2023/W10/07-03-2023-numbats.png)
+
+### **Day 2 - Waffle: [Nepal Plane Crashes](Day4/Nepal-Plane-Crashes.R)**
+  ![Screenshot](Day4/Nepal-Plane-Crashes.png)
