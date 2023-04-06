@@ -1,6 +1,5 @@
 # packages
 pacman::p_load(tidyverse,
-               lubridate,
                geomtextpath,
                ggtext,
                ggimage,
@@ -18,7 +17,6 @@ df = tidytuesdayR::tt_load('2021-11-23')
 # texto
 sysfonts::font_add('fb', 'fontes/Font Awesome 6 Brands-Regular-400.otf')
 sysfonts::font_add('futura', 'fontes/Futura Medium.otf')
-sysfonts::font_add_google("Oranienbaum", "oranienbaum")
 sysfonts::font_add_google("Open Sans","opensans")
 showtext::showtext_opts(dpi=150)
 showtext::showtext_auto()
@@ -79,7 +77,7 @@ doctorwho = df$writers |>
   mutate(seg_season_x = case_when(episode_number==min(episode_number)~id)) |>
   ungroup() |>
   mutate(points = case_when(rating.y==max(rating.y)~id,
-                          rating.y==min(rating.y)~id),
+                            rating.y==min(rating.y)~id),
          point_lab = case_when(rating.y==max(rating.y)~paste0("<span style='font-family:futura;font-size:20pt;color:white;'>",
                                                               '"<b>', episode_title, '"<br></span>',
                                                               "<span style='font-family:futura;font-size:15pt;color:white;'>",
