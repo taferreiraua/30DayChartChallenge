@@ -12,3 +12,6 @@ Contribuições para o #30daychartchallenge.
 
 ### **Day 4 - Historical: [Nepal Plane Crashes](Day4/Nepal-Plane-Crashes.R)**
   ![Screenshot](Day4/Nepal-Plane-Crashes.png)
+  
+### **Day 5 - Slope: ["We're all histories in the end..."](Day5/doctorwho.R)**
+  ![Screenshot](Day5/doctorwho.png)
