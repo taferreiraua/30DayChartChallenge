@@ -16,5 +16,5 @@ Contribuições para o #30daychartchallenge.
 ### **Day 5 - Slope: ["We're all stories in the end..."](Day5/doctorwho.R)**
   ![Screenshot](Day5/doctorwho.png)
 
-### **Day 6 - Data Day (OWID): ["The rise of the mega-cities"](Day6/city-pop.R)**
+### **Day 6 - Data Day (OWID): [The rise of the mega-cities](Day6/city-pop.R)**
   ![Screenshot](Day6/city-pop.png)
