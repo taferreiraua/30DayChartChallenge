@@ -15,7 +15,7 @@ df = tidytuesdayR::tt_load('2021-11-23')
 
 
 # texto
-sysfonts::font_add('fb', 'fontes/Font Awesome 6 Brands-Regular-400.otf')
+sysfonts::font_add('aw6', 'fontes/Font Awesome 6 Brands-Regular-400.otf')
 sysfonts::font_add('futura', 'fontes/Futura Medium.otf')
 sysfonts::font_add_google("Open Sans","opensans")
 showtext::showtext_opts(dpi=150)
@@ -27,11 +27,11 @@ title=paste0("<span style='font-family:opensans;color:white;font-size:43pt;'><i>
 subtitle="<span style='font-family:opensans;color:white;font-size:29pt;'>**Doctor Who** episode and doctor ratings."
 
 caption = paste0(
-  "<span style='font-family:fb;'>&#xf099;</span>",
+  "<span style='font-family:aw6;'>&#xf099;</span>",
   "<span style='font-family:opensans;'> @taferreiraua </span>",
-  "<span style='font-family:fb;'>&#xf09b;</span>",
+  "<span style='font-family:aw6;'>&#xf09b;</span>",
   "<span style='font-family:opensans;'> taferreiraua </span>",
-  "<span style='font-family:opensans;'>| **Source:** _datardis_</span>")
+  "<span style='font-family:opensans;'>| **Source:** _datardis_")
 
 
 
@@ -91,6 +91,8 @@ doctorwho = df$writers |>
 
 
 
+# Inspirado no plot da Tanya Shapiro para a Tidy Tuesday:
+# https://twitter.com/tanya_shapiro/status/1463237495135641606
 
 # plot
 ggplot(doctorwho) +
